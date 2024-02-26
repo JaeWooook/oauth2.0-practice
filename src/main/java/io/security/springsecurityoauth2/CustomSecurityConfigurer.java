@@ -3,6 +3,9 @@ package io.security.springsecurityoauth2;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configurers.AbstractHttpConfigurer;
 
+/**
+ * 가장 기본이되는 SecurityConfigurer을 커스텀하는 설정클래스이다.
+ */
 public class CustomSecurityConfigurer extends AbstractHttpConfigurer<CustomSecurityConfigurer, HttpSecurity> {
 
     private boolean isSecure;
